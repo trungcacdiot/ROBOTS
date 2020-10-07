@@ -1,0 +1,21 @@
+.navigation-container {
+  display: flex;
+  padding: 20px 0 20px 0;
+  justify-content: center;
+}
+.navigation {
+  display: flex;
+  list-style-type: none;
+  width: 80%;
+  justify-content: space-evenly;
+
+}
+
+.navigation li a{
+  text-decoration: none;
+  color: black;
+}
+.navigation li a:hover{
+  padding-bottom: 5px;
+  border-bottom: solid rgb(228, 167, 56) 2px;
+}

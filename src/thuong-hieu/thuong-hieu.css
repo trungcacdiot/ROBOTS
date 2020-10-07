@@ -1,0 +1,55 @@
+.thuonghieu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+.p-thuonghieu {
+  font-size: 40px;
+  padding: 20px;
+  
+}
+.p-content {
+  color: #999999;
+}
+.picture10 {
+  position: absolute;
+  left: -520px;
+  clip: rect(0px, 185px, 400px, 0px);
+}
+.picture101 {
+  position: absolute;
+  left: -520px;
+  clip: rect(0px, 400px, 400px, 215px);
+}
+.picture102 {
+  position: absolute;
+  left: -520px;
+  clip: rect(0px, 610px, 400px, 425px);
+}
+.picture103 {
+  position: absolute;
+  left: -520px;
+  clip: rect(0px, 825px, 400px, 635px);
+}
+.picture104 {
+  position: absolute;
+  left: -520px;
+  clip: rect(0px, 1035px, 400px, 850px);
+}
+.picture10:hover {
+  cursor: pointer;
+}
+.picture101:hover {
+  cursor: pointer;
+}
+.picture102:hover {
+  cursor: pointer;
+}
+.picture103:hover {
+  cursor: pointer;
+}
+
+.picture104:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,43 @@
+@font-face {
+  font-family: Montserrat-Black;
+  src: url(./fonts/Montserrat-SemiBold.ttf);
+}
+* {
+  font-family: Montserrat-Black, serif;
+  padding: 0px;
+  margin: 0px;
+}
+.App__contact {
+  margin-top: 50px;
+}
+.App {
+  overflow: hidden;
+  background-color: white;
+}
+
+.son-of-navigation-bar {
+  position: relative;
+  height: 725px;
+}
+.active {
+  transform: scale(1);
+  transition: all 1s;
+}
+.none {
+  transform: scale(0);
+  overflow: hidden;
+  transition: all 1s;
+}
+/* .position {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+} */
+.scroll {
+  display: block;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+nav {
+  position: fixed;
+}

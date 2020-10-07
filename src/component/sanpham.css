@@ -1,0 +1,60 @@
+.sanpham {
+  position: relative;
+}
+.sanpham .p1 {
+  font-size: 14px;
+  color: white;
+  padding: 27px 20px 24px 20px;
+  background-color: rgb(243, 111, 111);
+}
+.sanpham .p2 {
+  font-size: 14px;
+  color: white;
+  width: 35px;
+  height: 30px;
+  vertical-align: top;
+  padding: 20px 22px 18px 20px;
+  background-color: rgb(134, 132, 132);
+}
+.p1p2 {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 163px;
+}
+.sanpham__content {
+  width: 240px;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 10px 20px 0;
+}
+.architects {
+  color: rgb(156, 154, 154);
+  padding: 20px 0 20px 0;
+  font-size: 14px;
+}
+.architects:hover {
+  color: black;
+  cursor: pointer;
+}
+.sanpham__content:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.list-sanpham {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.sanpham .p1:hover {
+  cursor: pointer;
+}
+.sanpham .p2:hover {
+  cursor: pointer;
+}
+.sanpham__picture {
+  width: 232px;
+  height: 232px;
+  overflow: hidden;
+}

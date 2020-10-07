@@ -1,0 +1,53 @@
+.option,
+.language,
+.language-Up,
+.OptionStart {
+  display: flex;
+  align-items: center;
+}
+.OptionStart {
+  justify-content: space-evenly;
+  
+}
+
+.option1 {
+  padding: 0 20px 0 0;
+}
+.language__VN {
+  padding-right: 5px;
+}
+.language__EN {
+  margin-left: 5px;
+}
+.language {
+  padding-right: 10px;
+}
+.option,
+.language {
+  color: #00000280;
+}
+.option1,
+.language__VN,
+.language__EN,
+.option2 {
+  text-decoration: none;
+}
+.language__VN,
+.option1:-webkit-any-link {
+  color: #000;
+  font-weight: 600;
+}
+.option2:-webkit-any-link {
+  color: #00000280;
+}
+.up-product {
+  color: white;
+  background-color: #ffc107;
+  padding: 6px 20px 6px 20px;
+}
+.OptionStart {
+  border-bottom: 1px inset;
+}
+.language__VN {
+  border-right: solid #2d2d3380 2px;
+}

@@ -1,0 +1,80 @@
+.phongcach {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+.p-phongcach {
+  font-size: 40px;
+  padding: 20px;
+  
+}
+.p-content {
+  color: #999999;
+}
+.group-picture {
+  position: relative;
+  height: 350px;
+  padding: 20px 0 20px 0;
+}
+.picture99 {
+  position: absolute;
+  left: -520px;
+  clip: rect(0px, 500px, 500px, 0px);
+}
+.picture991 {
+  position: absolute;
+  left: -520px;
+  clip: rect(50px, 674px, 150px, 567px);
+}
+.picture992 {
+  position: absolute;
+  left: -520px;
+  clip: rect(175px, 674px, 285px, 567px);
+}
+
+.picture993 {
+  position: absolute;
+  left: -520px;
+  clip: rect(50px, 830px, 150px, 722px);
+}
+.picture994 {
+  position: absolute;
+  left: -520px;
+  clip: rect(175px, 830px, 285px, 722px);
+}
+
+.picture995 {
+  position: absolute;
+  left: -520px;
+  clip: rect(50px, 985px, 150px, 875px);
+}
+.picture996 {
+  position: absolute;
+  left: -520px;
+  clip: rect(175px, 985px, 285px, 875px);
+}
+.picture999:hover {
+  cursor: pointer;
+}
+.picture991:hover {
+  cursor: pointer;
+}
+.picture992:hover {
+  cursor: pointer;
+}
+.picture993:hover {
+  cursor: pointer;
+}
+.picture994:hover {
+  cursor: pointer;
+}
+.picture995:hover {
+  cursor: pointer;
+}
+.picture996:hover {
+  cursor: pointer;
+}
+.button-xem-tat-ca:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,68 @@
+.content-picture {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.button-picture {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.content-picture .p1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.content-picture .p2 {
+  color: rgb(122, 122, 122);
+  font-size: 15px;
+}
+.personal__like__icon {
+  width: 100px;
+  display: flex;
+}
+.left-icon,
+.right-icon {
+  height: 40px;
+  width: 40px;
+}
+.button-picture {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  border-bottom: outset rgb(226, 224, 224);
+}
+.picture1 {
+  width: 1910px;
+}
+.son-of-navigation {
+  position: relative;
+}
+.area {
+  stroke: tomato;
+  z-index: 2;
+}
+.sanpham-position {
+  width: 300px;
+  height: 400px;
+  padding: 80px 90px 10px 110px;
+  border-radius: 500px;
+  background-color: white;
+  position: absolute;
+  top: 80px;
+  left: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 1s;
+}
+.show {
+  opacity: 1;
+  z-index: 4;
+  visibility: visible;
+}
+.off {
+  display: none;
+  overflow: hidden;
+}

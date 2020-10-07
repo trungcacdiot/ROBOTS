@@ -1,0 +1,80 @@
+.contact-black {
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+}
+.facebook,
+.google {
+  background-color: white;
+  width: 30px;
+  padding: 10px;
+  border-radius: 40px;
+  margin-left: 20px;
+}
+.left {
+  display: flex;
+  align-items: center;
+  margin-right: 200px;
+}
+.right-top,
+.right-bottom {
+  display: flex;
+  align-items: flex-end;
+  padding: 5px;
+}
+.newsletter {
+  font-size: 25px;
+  font-weight: 500;
+  padding-right: 10px;
+}
+.right-bottom input {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding-right: 30px;
+  margin-right: 20px;
+  padding: 5px 5px 5px 10px;
+}
+
+.left p {
+  font-size: 25px;
+}
+.right-bottom p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.contact-white {
+  display: flex;
+  height: 150px;
+  background-color: whitesmoke;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.picture11 {
+  height: 100px;
+  width: 100px;
+}
+.white-left {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  align-items: center;
+}
+.white-right {
+  list-style-type: none;
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+.white-right li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.right-bottom {
+  display: flex;
+  align-items: center;
+}
