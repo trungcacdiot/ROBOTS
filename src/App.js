@@ -14,7 +14,7 @@ class App extends Component {
           <Route exact path="/ROBOTS" children={<Routera />} />
 
           <Route
-            path="/noithatnhanh/sanpham"
+            path="/ROBOTS/sanpham"
             children={
               <Sanpham
                 picture={<img className="list-picture" src={Picture2} />}
@@ -24,7 +24,7 @@ class App extends Component {
             }
           />
           <Route path="youtube" children={<TapYoutube />}></Route>
-          <Route path="/all" children={<All />}></Route>
+          <Route path="/ROBOTS/all" children={<All />}></Route>
         </switch>
       </Router>
     );

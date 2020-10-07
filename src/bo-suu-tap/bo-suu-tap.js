@@ -85,7 +85,7 @@ class BoSuuTap extends Component {
             );
           })}
         </div>
-        <Link to="/all">
+        <Link to="/ROBOTS/all">
           <button className="button-xem-tat-ca">Xem tất cả</button>
         </Link>
       </div>

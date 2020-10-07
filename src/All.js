@@ -35,25 +35,23 @@ export class All extends Component {
   render() {
     return (
       <div>
-        <Link to="/all">
-          <div className="list-sanpham">
-            {bosuutap.map((element, index) => {
-              return (
-                <Link to="/noithatnhanh/sanpham">
-                  <Sanpham
-                    picture={<img className="list-picture" src={element.src} />}
-                    content={
-                      this.state.robots.length > 0
-                        ? this.state.robots[index].name
-                        : ""
-                    }
-                    stt={index}
-                  ></Sanpham>
-                </Link>
-              );
-            })}
-          </div>
-        </Link>
+        <div className="list-sanpham">
+          {bosuutap.map((element, index) => {
+            return (
+              <Link to="/noithatnhanh/sanpham">
+                <Sanpham
+                  picture={<img className="list-picture" src={element.src} />}
+                  content={
+                    this.state.robots.length > 0
+                      ? this.state.robots[index].name
+                      : ""
+                  }
+                  stt={index}
+                ></Sanpham>
+              </Link>
+            );
+          })}
+        </div>
       </div>
     );
   }
