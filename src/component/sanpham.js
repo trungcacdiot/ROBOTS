@@ -18,6 +18,10 @@ class Sanpham extends Component {
   }
 
   render() {
+    let stt = this.props.stt;
+    if (stt > 10) {
+      stt = 1;
+    }
     return (
       <div className="sanpham">
         <div className="sanpham__picture">{this.props.picture}</div>
@@ -26,9 +30,7 @@ class Sanpham extends Component {
           <p className="p2">HAND MADE</p>
         </div>
         <div className="architects">
-          {this.state.robots.length > 0
-            ? this.state.robots[this.props.stt].username
-            : ""}
+          {this.state.robots.length > 0 ? this.state.robots[stt].username : ""}
         </div>
         <div className="sanpham__content">{this.props.content}</div>
       </div>

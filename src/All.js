@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Sanpham from "./component/sanpham";
-import Picture9 from "./picture/picture-9.jpg";
 import axios from "axios";
 import { Link } from "react-router-dom";
 // import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -13,6 +12,8 @@ const bosuutap = [
   { src: "https://robohash.org/6" },
   { src: "https://robohash.org/7" },
   { src: "https://robohash.org/8" },
+  { src: "https://robohash.org/9" },
+  { src: "https://robohash.org/10" },
 ];
 export class All extends Component {
   constructor() {

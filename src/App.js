@@ -11,7 +11,8 @@ class App extends Component {
       <Router>
         <switch>
           <Route exact path="/" children={<Routera />} />
-          <Route exact path="/noithatnhanh" children={<Routera />} />
+          <Route exact path="/ROBOTS" children={<Routera />} />
+
           <Route
             path="/noithatnhanh/sanpham"
             children={
